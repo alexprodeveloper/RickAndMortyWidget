@@ -1,0 +1,7 @@
+.episode {
+    border-bottom: 1px solid #000000;
+}
+
+.episode:last-child {
+    border-bottom: none;
+}

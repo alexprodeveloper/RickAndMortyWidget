@@ -1,0 +1,26 @@
+.filter__container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.filter {
+    width: 18.5%;
+}
+
+@media (max-width: 650px) {
+    .filter {
+        width: 32%;
+    }
+
+    .filter__offset {
+        margin-bottom: 20px;
+    }
+
+    .filter__center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

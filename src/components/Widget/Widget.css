@@ -1,0 +1,14 @@
+.widget {
+    width: 100%;
+}
+
+.heading {
+    text-align: center;
+    font-size: 30px;
+}
+
+.characters {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
